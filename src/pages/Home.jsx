@@ -1,7 +1,13 @@
+import NewsItem from "../components/ui/news-item";
+
 export default function Home() {
   return (
     <div>
-      <h2>home</h2>
+      <div className="grid grid-cols-2 gap-[20px]">
+        <NewsItem></NewsItem>
+        <NewsItem></NewsItem>
+        
+    </div>
     </div>
   );
 }
